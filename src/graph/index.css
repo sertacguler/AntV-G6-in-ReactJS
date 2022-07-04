@@ -1,0 +1,26 @@
+  .contextMenu {
+      position: fixed !important;
+      list-style-type: none;
+      padding: 10px 8px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 1px solid #000000;
+      border-radius: 4px;
+      font-size: 12px;
+      color: #545454;
+  }
+
+  .contextMenu li {
+      cursor: pointer;
+      list-style-type: none;
+      list-style: none;
+      margin-left: 0px;
+  }
+
+  .contextMenu li:hover {
+      color: rgb(146, 224, 255);
+  }
+
+  .tooltip {
+      position: fixed !important;
+      background-color: rgba(255, 255, 255, 0.9);
+  }
